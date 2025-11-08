@@ -39,20 +39,30 @@ If so, we can use confidence as a decision signal to design an *adaptive retriev
 
 ---
 ## Repository Contents
+
+```text
 scienceqa-confidence-analysis/
 │
 ├── data/
 │   └── 4o_wrong_indexes.json        # Indices of ScienceQA questions GPT-4o-mini got wrong
 │
+├── figures/
+│   └── figure_... 					 # Experiment figures
+│
 ├── notebooks/
-│   ├── version_2.ipynb              # Core experiment notebook (confidence–accuracy analysis)
+│   ├── fine_tune.ipynb              # Core experiment notebook (confidence–accuracy analysis)
 │   └── index.ipynb                  # Helper notebook to load and inspect the difficult subset
 │
+├── presentation/
+│   ├── Presentation_BOTZZ.pdf       # Presentation of the project
+│   └── Project_Report.pdf           # Report for the project
+│
 ├── requirements.txt                 # Minimal dependencies
-└── README.md                        # This file
+└── README.md                        # This file  
+```
 
 ---
-## 📚 Referenced Papers and Techniques
+## Referenced Papers and Techniques
 
 This project builds upon several foundational works in neural networks, interpretability, and retrieval-augmented generation.  
 The following studies and frameworks informed our methods and inspired key experimental design choices:
