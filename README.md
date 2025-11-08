@@ -18,7 +18,7 @@ We gratefully acknowledge the original authors for their contribution to open re
 
 ## Background and Motivation
 
-Most educational chatbots depend on internet-connected, high-parameter models such $as GPT-4. These systems are powerful but costly and inaccessible in offline or low-resource environments.$  
+Most educational chatbots depend on internet-connected, high-parameter models such as GPT-4. These systems are powerful but costly and inaccessible in offline or low-resource environments.  
 
 Our motivation was to explore whether smaller, quantized, or fine-tuned LLMs can remain useful by introducing a **confidence-driven control mechanism**:
 
