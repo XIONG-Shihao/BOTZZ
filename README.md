@@ -89,7 +89,7 @@ These works collectively shaped the hybrid strategy of combining **confidence es
   A multimodal question–answering dataset containing 21,208 examples from science textbooks and lectures across primary to high school levels.
 
 ### Model  
-- **GPT-4o-mini (OpenAI)**  
+- **Gemma 4b**  
   A small, efficient model supporting `logprobs` output for token-level probability extraction.
 
 ### Method  
